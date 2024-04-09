@@ -12,6 +12,13 @@ Kirim local ke remote
 git push origin <branch-name>
 ```
 
+Mengambil perubahan dari remote 
+```
+git pull origin <branch-name>
+```
+
+atau bisa tulis saja ```git pull```
+
 Membuat branch baru di local
 ```
 git checkout -m <branch-name>
