@@ -3,7 +3,11 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return ('welcome');
+    return 'Welcome';
+});
+
+Route::get('/rebly', function () {
+    return view('rebly');
 });
 
 Route::get('/melpen', function () {
