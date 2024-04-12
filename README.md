@@ -98,3 +98,14 @@ DB_PASSWORD=root
 ```
 
 
+## Contributors
+
+<ol>
+    <li>Janzen Faidiban<li>
+    <li>...<li>
+    <li>...<li>
+    <li>...<li>
+    <li>...<li>
+    <li>...<li>
+    <li>...<li>
+</ol>
