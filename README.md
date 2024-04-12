@@ -60,3 +60,15 @@ Cara untuk menghapus branch
 ```
 git branch --delete <branchname>
 ```
+
+## Contributors
+
+<ol>
+    <li>Janzen Faidiban<li>
+    <li>...<li>
+    <li>...<li>
+    <li>...<li>
+    <li>...<li>
+    <li>...<li>
+    <li>...<li>
+</ol>
