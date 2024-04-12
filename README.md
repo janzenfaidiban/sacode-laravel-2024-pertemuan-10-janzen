@@ -60,3 +60,41 @@ Cara untuk menghapus branch
 ```
 git branch --delete <branchname>
 ```
+
+
+# 📚 Cloing Repository
+
+Jika kasusnya adalah kita akan cloning repository project laravel pertama kali
+
+Pertama cloing / download repository
+```
+git clone https://github.com/janzenfaidiban/sacode-laravel-2024-pertemuan-3-janzen.git
+```
+
+## buat file ```.env```
+
+copy isi dari file ```.env.example``` dan pasang ke dalam file ```.env```
+
+update konfigurasi di dalam .env
+
+tambahkan nama aplikasi yang sedang dibuat
+```
+APP_NAME="Papua News"
+```
+
+Tentukan jenis database yang digunakan
+```
+DB_CONNECTION=mysql
+```
+
+buat koneksi ke database. isi bagian ```DB_PASSWORD=``` apabila menggunakan kata sandi untuk koneksi ke database
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=sacode_laravel_2024_pertemuan_3_janzen
+DB_USERNAME=root
+DB_PASSWORD=root
+```
+
+
