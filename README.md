@@ -19,7 +19,7 @@ DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=sacode_laravel_2024_pertemuan_6_janzen
 DB_USERNAME=root
-DB_PASSWORD=
+DB_PASSWORD=root
 ```
 
 Install composer
@@ -93,7 +93,12 @@ Gabungkan perubahan dari branch lain, sebagai contoh branch main ke branch yang 
 ```
 git merge main
 ```
-Cara untuk menghapus branch
+Hapus branch di local
 ```
 git branch --delete <branchname>
+```
+
+Hapus branch di remote
+```
+git push --delete origin <nama-branch>
 ```
