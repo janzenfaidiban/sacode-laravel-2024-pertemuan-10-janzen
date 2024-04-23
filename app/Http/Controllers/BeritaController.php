@@ -8,6 +8,3 @@ class BeritaController extends Controller
 {
     //
 }
-
-// perintah Git memuat controller kosong
-// php artisan make:controller BeritaController
