@@ -22,9 +22,30 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
+Install composer
+```
+composer install
+```
+
 Membuat key aplikasi yang baru 
 ```
 php artisan key:generate
+```
+
+Jalankan migrasi database
+```
+php artisan migrate
+```
+
+Jika kita sudah migrate sebelumnya pada project yang sama, kita bisa gunakan ```migrate:fresh```
+
+```
+php artisan migrate:fresh 
+```
+
+Jika ingin jalankan migrasi sekalian dengan seeder
+```
+php artisan migrate:fresh --seed
 ```
 
 Kirim perubahan yang dibuat local ke remote sesuai branch tertentu
