@@ -48,6 +48,11 @@ Jika ingin jalankan migrasi sekalian dengan seeder
 php artisan migrate:fresh --seed
 ```
 
+Jalankan project laravel di server artisan dan web browser
+```
+php artisan serve
+```
+
 Kirim perubahan yang dibuat local ke remote sesuai branch tertentu
 ```
 git push origin <branch-name>
