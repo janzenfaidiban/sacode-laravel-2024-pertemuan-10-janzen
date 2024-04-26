@@ -22,10 +22,10 @@ Route::get('/marthen', function () {
     return view('marthen');
 });
 
-Route::get('/janzen', function () {
-    return view('janzen');
-});
-
 Route::get('/acho', function () {
     return view('acho');
+});
+
+Route::get('/janzen', function () {
+    return view('janzen.index');
 });
