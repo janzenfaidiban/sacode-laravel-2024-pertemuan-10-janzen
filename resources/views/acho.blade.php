@@ -909,7 +909,7 @@
             <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
                 <header class="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-3">
                     <div class="flex lg:justify-center lg:col-start-2">
-                        <img src="https://avatars.githubusercontent.com/u/45115034?v=4" alt="github profile picture" class="rounded-full">
+                        <img src="{{asset('img/avatar.png') }}" alt="github profile picture" class="rounded-full">
                     </div>
                 </header>
 
