@@ -15,8 +15,8 @@
             </li>
             <li>
                 <a href="#" class="hover:underline">Contact</a>
-            </li>
+                </li>
         </ul>
     </div>
 </footer>
-<!-- footer end -->
+<!-- footer end -->
