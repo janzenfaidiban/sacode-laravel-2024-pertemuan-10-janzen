@@ -9,21 +9,23 @@ class BeritaController extends Controller
     // index
     public function index()
     {
-        return 'index';
+        //return 'controller >index';
+        //menampilkan halaman index yang ada di dalam folder views/berita
+        return view('berita.index');
     }
     // create
     public function create()
     {
-        return 'create';
+        return 'controller >create';
     }
     // edit
     public function edit()
     {
-        return 'edit';
+        return 'controller >edit';
     }
     // delete
     public function delete()
     {
-        return 'delete';
+        return 'controller >delete';
     }
 }
