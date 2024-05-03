@@ -7,4 +7,12 @@ Route::controller(BeritaController::class)->group(function () {
 
 
     Route::get('/berita', 'index');
+
+    Route::get('/janzen', function() {
+        return view('janzen.index');
+    });
+
+    // Route::get('/janzen', function() {
+    //     return view('janzen.index');
+    // });
 });
