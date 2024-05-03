@@ -6,5 +6,10 @@ use App\Http\Controllers\BeritaController;
 Route::controller(BeritaController::class)->group(function () {
 
 
-    Route::get('/berita', 'index');
+    Route::get('/efati', function(){
+        return view('efati.index');
+        Route::get('/berita', 'index');
+    });
+    
+    
 });
