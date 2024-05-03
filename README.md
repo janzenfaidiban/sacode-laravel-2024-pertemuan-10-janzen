@@ -17,7 +17,7 @@ Konfigurasi menghubungkan database di dalam file ```.env```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=sacode_laravel_2024_pertemuan_6_janzen
+DB_DATABASE=sacode-laravel-2024-pertemuan-9-janzen
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
